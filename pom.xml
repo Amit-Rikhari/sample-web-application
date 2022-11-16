@@ -15,6 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<distributionManagement>
+	        <repository>
+			<name>Nexus artifactory release</name>
+			<url> http://54.204.69.148:8081/repository/maven-releases/</url>
+		</repository>
+	        <snapshotRepository>
+			<name>Nexus artifactory release</name>
+		        <url>http://54.204.69.148:8081/repository/maven-snapshots/</url>
+	        </snapshotRepository>
+	</distributionManagement>
   <properties>
     <sonar.host.url>http://54.196.137.152:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
