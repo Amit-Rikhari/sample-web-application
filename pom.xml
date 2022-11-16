@@ -17,10 +17,12 @@
   </dependencies>
 	<distributionManagement>
 	        <repository>
+			<id>nexus</id>
 			<name>Nexus artifactory release</name>
 			<url> http://54.204.69.148:8081/repository/maven-releases/</url>
 		</repository>
 	        <snapshotRepository>
+			<id>nesus</id>
 			<name>Nexus artifactory release</name>
 		        <url>http://54.204.69.148:8081/repository/maven-snapshots/</url>
 	        </snapshotRepository>
